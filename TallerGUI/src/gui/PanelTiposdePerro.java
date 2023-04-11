@@ -13,7 +13,7 @@ public class PanelTiposdePerro extends JPanel {
 		String[] data = {"Puppy (Gran Danés) ", "Taylor (Beagle)", "Cobrador (Akita)", "Brutal y Mamut (Doberman)", "Maximus (Mastin Español)", "Tony (Bull Terrier)", "Nieve (Gigante de los Pireneos)", "Titán (Pug)", "Leviatán (Chiuahua", "Tarzán (Gosque)", "Fido (Mastin Napolitano)"};
 		JList<String> list = new JList<>(data);
 		JScrollPane scrollPane = new JScrollPane(list);
-	//	list.setPreferredSize(new Dimension(250, 300));
+
 		scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
 		add(scrollPane);
 		setPreferredSize(new Dimension(0, 0));

@@ -36,33 +36,32 @@ public class VentanaExposicion extends JFrame {
     	
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // Creamos el panel contenedor y establecemos el GridLayout
+
         JPanel panel = new JPanel(new GridLayout(3, 1));
 
-        // Creamos los paneles de cada fila y establecemos sus Layouts
+
         JPanel fila1 = new JPanel(new GridLayout(1, 3));
         JPanel fila2 = new JPanel(new GridLayout(1, 2));
         JPanel fila3 = new JPanel(new GridLayout(1, 1));
 
-        // Añadimos los paneles a la fila 1
+
         fila1.add(panelTiposdePerro);
         fila1.add(panelDatosPerro);
         fila1.add(panelBusqueda);
 
-        // Añadimos los paneles a la fila 2
+        
         fila2.add(panelAgregar);
         fila2.add(panelConsultas);
 
 
-        // Añadimos los paneles a la fila 3
         fila3.add(panelPuntos);
 
-        // Añadimos las filas al panel contenedor
+
         panel.add(fila1);
         panel.add(fila2);
         panel.add(fila3);
 
-        // Agregamos el panel contenedor al JFrame
+        
         getContentPane().add(panel);
         pack();
         setLocationRelativeTo(null);

@@ -71,7 +71,6 @@ public class PanelAgregar extends JPanel {
         setBorder(new TitledBorder("Agregar Perro"));
 
 
-        // Añadimos los componentes al panel
         add(lbNombre);
         add(txtNombre);
         add(lbRaza);

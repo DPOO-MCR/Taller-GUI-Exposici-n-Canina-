@@ -76,13 +76,9 @@ public class PanelDatosPerro extends JPanel {
     	JButton boton1 = new JButton(icono);
     	 boton1.setPreferredSize(new Dimension(100, 100));
     	panelBotones.add(boton1);
-    	// panelBotones.setPreferredSize(new Dimension(80, 80));
+
     	add(panelBotones);
     	
- //   	lbInvisible = new JLabel("");
-   //     lbInvisible.setPreferredSize(new Dimension(105, 25));
-        
-     //   add(lbInvisible);
 
     	
 

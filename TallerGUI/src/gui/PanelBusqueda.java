@@ -49,6 +49,6 @@ public class PanelBusqueda extends JPanel implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        // Manejar eventos de acción de botones aquí
+
     }
 }
